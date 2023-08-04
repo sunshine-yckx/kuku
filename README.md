@@ -104,9 +104,3 @@ git -C ./plugins/Yunzai-Kuro-Plugin/ pull
 
 - [Miao-Yunzai](https://github.com/yoimiya-kokomi/Miao-Yunzai)
 - [Yunzai-Bot 索引库](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)
-
-### 致谢
-
-- [xiaoyao-cvs-plugin](https://github.com/ctrlcvs/xiaoyao-cvs-plugin) 插件部分代码来源
-- [yenai-plugin](https://github.com/yeyang52/yenai-plugin) 插件部分代码来源
-- [Kuro-API-Collection](https://github.com/TomyJan/Kuro-API-Collection) 库街区 API 文档
