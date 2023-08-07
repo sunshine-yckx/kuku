@@ -17,24 +17,24 @@ export async function initAutoTask() {
   logger.info(
     chalk.rgb(134, 142, 204)(`[库洛插件] 载入定时任务 gameSignTask:pns`)
   )
-  schedule.scheduleJob('0 2 0 * * ? ', function () {
+  schedule.scheduleJob('0 2 10 * * ? ', function () {
     gameSignTask('pns')
   })
   logger.info(
     chalk.rgb(134, 142, 204)(`[库洛插件] 载入定时任务 gameSignTask:mc`)
   )
-  schedule.scheduleJob('0 2 0 * * ? ', function () {
+  schedule.scheduleJob('0 2 10 * * ? ', function () {
     gameSignTask('mc')
   })
   logger.info(chalk.rgb(134, 142, 204)(`[库洛插件] 载入定时任务 bbsDailyTask`))
-  schedule.scheduleJob('0 2 0 * * ? ', function () {
+  schedule.scheduleJob('0 2 10 * * ? ', function () {
     bbsDailyTask()
   })
 
   logger.info(
     chalk.rgb(134, 142, 204)(`[库洛插件] 载入定时任务 bbsActivityTask`)
   )
-  schedule.scheduleJob('0 2 5 * * ? ', function () {
+  schedule.scheduleJob('0 2 12,23 * * ? ', function () {
     bbsActivityTask()
   })
 
